@@ -52,7 +52,7 @@ def register():
     window.close()
     if event == "Register":
         add_user(values['Username'], values['Password'])
-        save_img(frame,values['Password'])
+        save_img(frame,values['Username'])
         main()
 
 def login():
